@@ -7,7 +7,7 @@ header {
     line-height: 1.4;
     background-color: hsla(0, 0%, 20%, 0.5);
     border-bottom-color: #777777;
-    webkit-backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
     backdrop-filter: blur(12.5px);
     z-index: 1000;
     
