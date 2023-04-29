@@ -21,6 +21,7 @@
   #hero h1 {
     font-size: 3rem;
     font-weight: bold;
+    text-align: center
     color: #ffffff;
     margin-bottom: 1rem;
     letter-spacing: 1px;
@@ -29,6 +30,7 @@
   #hero p {
     font-size: 1.25rem;
     font-weight: lighter;
+    text-align: center
     color: #ffffff;
     margin-bottom: 2rem;
     font-weight: 500;
