@@ -48,7 +48,6 @@ header li {
 header a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 12px;
   font-weight: bold;
 }
 
@@ -68,7 +67,6 @@ nav li {
 }
 
 nav a {
-  font-size: 12px;
   text-decoration: none;
   color: #ffffff;
   font-weight: normal;
