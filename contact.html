@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Restaurant - Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" type="text/css" href="navbar.css">
+    <link rel="stylesheet" href="scrollbar.css">
+    <link rel="stylesheet" href="global.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Our Services</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>      
+    </header>
+    <!-- Hero section -->
+    <section id="hero">
+      <div class="container">
+        <h1>Contact Us</h1>
+      </div>
+    </section>
+
+    <!-- Contact form section -->
+    <section id="contact-form">
+      <div class="container">
+        <h2>Send us a message</h2>
+        <form id="contact-us-form" method="post" action="email_sender.php">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>    
+
+    <!-- Contact info section -->
+    <section id="contact-info">
+      <div class="container">
+        <h2>Contact Information</h2>
+        <p>123 Main Street</p>
+        <p>City, State 12345</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: info@myrestaurant.com</p>
+      </div>
+    </section>
+
+    
+
+    <script src="app.js"></script>
+  </body>
+</html>
