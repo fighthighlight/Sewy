@@ -48,7 +48,19 @@ header li {
 header a {
   text-decoration: none;
   color: #ffffff;
+  font-size: 0.75rem;
   font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: #181818;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'SF Pro', sans-serif;
 }
 
 nav {
@@ -67,6 +79,7 @@ nav li {
 }
 
 nav a {
+  font-size: 0.75rem;
   text-decoration: none;
   color: #ffffff;
   font-weight: normal;
